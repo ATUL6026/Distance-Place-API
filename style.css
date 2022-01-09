@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200&family=Ubuntu&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    background:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.1)), url(image/bg2.jpg);
+    background-size: cover;
+    height: 110vh;
+}
+.container-fluid h1{
+    text-align: center;
+    color: whitesmoke;
+    padding-top: 15px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 35px;
+}
+.container-fluid p{
+    text-align: center;
+    color: whitesmoke;
+    padding-top: 15px;
+    padding-bottom: 25px;
+    font-family: 'Ubuntu', sans-serif;
+}
+.input{
+    text-align: center;
+    display: inline;
+}
+.input input{
+    width: 30%;
+    padding: 5px 3px;
+    font-size: 15px;
+    border: 2px solid black;
+    border-radius: 8px;
+}
+#from{
+    margin: 5px 6px;
+}
+#to{
+    margin: 5px 10px;
+}
+.button{
+    padding-left: 500px;
+    padding-top: 7px;
+}
+.button:hover{
+    padding-left: 501px;
+    padding-top: 8px;
+}
+.btn{
+    padding :7px 15px;
+    margin: 7px 3px;
+    border: 2px solid black;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 25px;
+    background-color:whitesmoke;
+}
+.btn:hover{
+    padding :9px 17px; 
+}
+.label{  
+    padding-left: 500px;
+    color:black;
+    font-size: larger;
+    text-shadow: 1px 1px 1px grey;
+}
+.label:hover{
+    cursor: pointer;
+    font-size: 21px;
+}
+#googleMap {
+    width: 70%;
+    height: 400px;
+    margin: 10px auto;
+}
+#output {
+    text-align: center;
+    font-size: 25px;
+    margin-top: 20px;
+    font-family: 'Ubuntu', sans-serif;
+  }
+.container-fluid #output{
+    background-color: rgb(180, 130, 93); 
+}
